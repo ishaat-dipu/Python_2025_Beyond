@@ -1,4 +1,4 @@
-<h1> 01.Python Indentation </h1>
+<h1> 01. Python Indentation </h1>
 <p>Python indentation refers to the spaces at the beginning of a code line, which are used to define the structure and flow of the code. Unlike many other programming languages that use braces or parentheses to define code blocks, Python uses indentation to specify the grouping of statements. </p>
 
 <p>For example, consider the following code snippet:</p>
