@@ -28,3 +28,16 @@ print(y)
 
 <p>Variables do not need to be declared with any particular type, and can even change type after they have been set </p>
 
+<h3> Python- variable Names</h3>
+
+<p> A variable can have a short name (like x and y) or a more descriptive name (age,carname, total_volume). Rules for Python variables: 
+
+<pre>
+myvar = "john" #it can be written down using all the small letter
+my_var = "john" #it Can be written down by underscore to eliminate the gap
+_my_var = "john" #it can be written down using first and middle underscore
+MYVAR = "john" #it can be written down with all the capital letter 
+MYVAR = "john" #it can be written down with  all the capital letter
+myvar2 = "john"
+</pre>
+
