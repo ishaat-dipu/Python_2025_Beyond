@@ -1,4 +1,4 @@
-<h1> 01. Python Indentation </h1>
+<h1> 03. Python Indentation </h1>
 <p>Python indentation refers to the spaces at the beginning of a code line, which are used to define the structure and flow of the code. Unlike many other programming languages that use braces or parentheses to define code blocks, Python uses indentation to specify the grouping of statements. </p>
 
 <p>For example, consider the following code snippet:</p>
@@ -12,3 +12,19 @@ else:
 </pre>
 
 <p>In this code, indentation is important. The `if` and `else` blocks must have an indented line for the code to be considered part of their respective blocks. Without proper indentation, you will encounter an "IndentationError." </p>
+
+<h1> 05. Python Variables </h1>
+<p>Variables are container for storing data values </p>
+<p>Python has no command for declaring a variable</p>
+<p> A variable is Create  wehn we  just assign the moment we assign value to it <p/>
+<p>For example, consider the following code snippet:</p>
+
+<pre>
+x = 5
+y = "John"
+print(x)
+print(y)
+</pre>
+
+<p>Variables do not need to be declared with any particular type, and can even change type after they have been set </p>
+
