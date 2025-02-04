@@ -39,6 +39,7 @@ _my_var = "john" #it can be written down using first and middle underscore
 MYVAR = "john" #it can be written down with all the capital letter 
 MYVAR = "john" #it can be written down with  all the capital letter
 myvar2 = "john"
+    </pre>
 <h3>Multiple value and Variable Assigning </h3>
     <h5>One variables and multiple variale assigning </h5>
     <p> we can take one variable and then assign using a comma </p>
@@ -47,5 +48,4 @@ myvar2 = "john"
         print(fruits)
     </pre>
     
-</pre>
 
