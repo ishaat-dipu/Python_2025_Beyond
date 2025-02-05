@@ -47,7 +47,7 @@ myvar2 = "john"
         fruits = "apple", "banana" , "Orange"
         print(fruits)
     </pre>
-<h1>03. Output Variables</h1>
+<h1>06. Output Variables</h1>
 
 You can output multiple variables by separating them with commas:
 
