@@ -47,5 +47,63 @@ myvar2 = "john"
         fruits = "apple", "banana" , "Orange"
         print(fruits)
     </pre>
-    
+<h1>03. Output Variables</h1>
 
+You can output multiple variables by separating them with commas:
+
+```python
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+```
+
+### Using the `+` Operator for Concatenation
+
+You can also use the `+` operator to concatenate strings:
+
+```python
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+```
+
+> **Note:** Be sure to add spaces between strings when concatenating if you want the output to be properly spaced. For example, `"Python" + "is" + "awesome"` would output `Pythonisawesome` without spaces between the words.
+
+### Using `+` with Numbers
+
+For numbers, the `+` operator works as a mathematical operator:
+
+```python
+x = 5
+y = 10
+print(x + y)  # Output: 15
+```
+
+### Error When Combining Strings and Numbers
+
+If you try to combine a string and a number with the `+` operator, you will get an error:
+
+```python
+x = 5
+y = "John"
+print(x + y)  # This will raise an error: TypeError: can only concatenate str (not "int") to str
+```
+
+### Best Practice for Outputting Variables
+
+The recommended way to output multiple variables of different data types is to separate them with commas in the `print()` function. This will automatically handle different data types:
+
+```python
+x = 5
+y = "John"
+print(x, y)  # Output: 5 John
+```
+
+## Conclusion
+
+This repository demonstrates simple techniques for outputting variables in Python using the `print()` function. By following the examples above, you can effectively display variables of different data types and avoid common errors when combining them.
+```
+
+You can copy this text into a `README.md` file in your GitHub repository. This will explain how to use the `print()` function for outputting variables in Python. Let me know if you'd like any changes!
