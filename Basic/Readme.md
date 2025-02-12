@@ -281,6 +281,55 @@ none_example = None
 print(type(none_example))  # Output: <class 'NoneType'>
 ```
 
+<h1>07.Number and Type Conversion in Python </h1>
+
+This repository demonstrates how to verify the type of a variable in Python and how to perform type conversion using built-in functions.
+
+## Type Verification
+Python provides the `type()` function to check the data type of a variable.
+
+```python
+x = 2
+Y = 3.03
+Z = 1J
+
+print(type(x))  # Output: <class 'int'>
+```
+
+## Type Conversion
+Python allows conversion between different numeric types using built-in functions.
+
+```python
+a = 3
+b = 7.5
+c = 1+2j
+
+p = int(b)    # Converts float to int
+q = float(a)  # Converts int to float
+r = complex(c) # Converts a complex number to complex (remains unchanged)
+
+print(p, q, r)
+```
+
+### Output:
+<pre>
+7 3.0 (1+2j)
+</pre>
+
+## Built-in Functions for Type Conversion
+- `int(x)`: Converts `x` to an integer.
+- `float(x)`: Converts `x` to a floating-point number.
+- `complex(x)`: Converts `x` to a complex number.
+
+### Example Usage:
+```python
+num = "10"
+num_int = int(num)  # Converts string to integer
+print(num_int, type(num_int))
+
+
+
+
 
 
 
