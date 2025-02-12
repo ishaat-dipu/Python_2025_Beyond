@@ -210,13 +210,13 @@ print(x, y)
 
 Python has several built-in data types that can be categorized as follows:
 
-## 1. Text Type: `str`
+## i. Text Type: `str`
 ```python
 text = "Hello, Python!"
 print(type(text))  # Output: <class 'str'>
 ```
 
-## 2. Numeric Types: `int`, `float`, `complex`
+## ii. Numeric Types: `int`, `float`, `complex`
 ```python
 integer_value = 10
 float_value = 20.5
@@ -227,7 +227,7 @@ print(type(float_value))    # Output: <class 'float'>
 print(type(complex_value))  # Output: <class 'complex'>
 ```
 
-## 3. Sequence Types: `list`, `tuple`, `range`
+## iii. Sequence Types: `list`, `tuple`, `range`
 ```python
 # List
 list_example = ["apple", "banana", "cherry"]
@@ -242,13 +242,13 @@ range_example = range(5)
 print(type(range_example))  # Output: <class 'range'>
 ```
 
-## 4. Mapping Type: `dict`
+## iv. Mapping Type: `dict`
 ```python
 dict_example = {"name": "Alice", "age": 25}
 print(type(dict_example))  # Output: <class 'dict'>
 ```
 
-## 5. Set Types: `set`, `frozenset`
+## v. Set Types: `set`, `frozenset`
 ```python
 set_example = {"apple", "banana", "cherry"}
 print(type(set_example))  # Output: <class 'set'>
@@ -257,13 +257,13 @@ frozenset_example = frozenset(["apple", "banana", "cherry"])
 print(type(frozenset_example))  # Output: <class 'frozenset'>
 ```
 
-## 6. Boolean Type: `bool`
+## vi. Boolean Type: `bool`
 ```python
 bool_example = True
 print(type(bool_example))  # Output: <class 'bool'>
 ```
 
-## 7. Binary Types: `bytes`, `bytearray`, `memoryview`
+## vii. Binary Types: `bytes`, `bytearray`, `memoryview`
 ```python
 bytes_example = b"Hello"
 print(type(bytes_example))  # Output: <class 'bytes'>
@@ -275,7 +275,7 @@ memoryview_example = memoryview(bytes(5))
 print(type(memoryview_example))  # Output: <class 'memoryview'>
 ```
 
-## 8. None Type: `NoneType`
+## viii. None Type: `NoneType`
 ```python
 none_example = None
 print(type(none_example))  # Output: <class 'NoneType'>
@@ -283,6 +283,8 @@ print(type(none_example))  # Output: <class 'NoneType'>
 
 ## Conclusion
 Python provides a variety of data types to handle different kinds of data efficiently. Understanding these types is fundamental for effective programming in Python.
+
+
 
 
 
