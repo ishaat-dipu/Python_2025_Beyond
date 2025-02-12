@@ -206,9 +206,82 @@ print(x, y)
 ```
 
 ---
+<h1> 06. Python Data Types </h1>
 
-This README covers some basic uses of the `print()` function in Python to output variables, from simple to advanced formatting techniques.
+Python has several built-in data types that can be categorized as follows:
+
+## i. Text Type: `str`
+```python
+text = "Hello, Python!"
+print(type(text))  # Output: <class 'str'>
+```
+
+## ii. Numeric Types: `int`, `float`, `complex`
+```python
+integer_value = 10
+float_value = 20.5
+complex_value = 3 + 5j
+
+print(type(integer_value))  # Output: <class 'int'>
+print(type(float_value))    # Output: <class 'float'>
+print(type(complex_value))  # Output: <class 'complex'>
+```
+
+## iii. Sequence Types: `list`, `tuple`, `range`
+```python
+# List
+list_example = ["apple", "banana", "cherry"]
+print(type(list_example))  # Output: <class 'list'>
+
+# Tuple
+tuple_example = ("apple", "banana", "cherry")
+print(type(tuple_example))  # Output: <class 'tuple'>
+
+# Range
+range_example = range(5)
+print(type(range_example))  # Output: <class 'range'>
+```
+
+## iv. Mapping Type: `dict`
+```python
+dict_example = {"name": "Alice", "age": 25}
+print(type(dict_example))  # Output: <class 'dict'>
+```
+
+## v. Set Types: `set`, `frozenset`
+```python
+set_example = {"apple", "banana", "cherry"}
+print(type(set_example))  # Output: <class 'set'>
+
+frozenset_example = frozenset(["apple", "banana", "cherry"])
+print(type(frozenset_example))  # Output: <class 'frozenset'>
+```
+
+## vi. Boolean Type: `bool`
+```python
+bool_example = True
+print(type(bool_example))  # Output: <class 'bool'>
+```
+
+## vii. Binary Types: `bytes`, `bytearray`, `memoryview`
+```python
+bytes_example = b"Hello"
+print(type(bytes_example))  # Output: <class 'bytes'>
+
+bytearray_example = bytearray(5)
+print(type(bytearray_example))  # Output: <class 'bytearray'>
+
+memoryview_example = memoryview(bytes(5))
+print(type(memoryview_example))  # Output: <class 'memoryview'>
+```
+
+## viii. None Type: `NoneType`
+```python
+none_example = None
+print(type(none_example))  # Output: <class 'NoneType'>
+```
 
 
 
-You can copy this text into a `README.md` file in your GitHub repository. This will explain how to use the `print()` function for outputting variables in Python. Let me know if you'd like any changes!
+
+
