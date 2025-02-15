@@ -327,6 +327,53 @@ num = "10"
 num_int = int(num)  # Converts string to integer
 print(num_int, type(num_int))
 
+<h1> 07.Python String <h1>
+<p1> String in Python are Surrounded by either Single Quotation marks, or double Quotation Marks.</p1>
+<p1> we can use Single Line String with " " / ' ' or Multiline string like """ """ </p>
+<pre>
+a = """ This is a Text
+with lots of Paragraph and
+things to add """
+print (a)
+</pre>
+
+<h3> String Can be Represents as Array </h3>
+<pre>
+a = "This is Cool "
+print (a[1])
+</pre>
+
+<p> Here we declare the second index of the Following character  </p>
+
+<h3> Looping through a string </h3>
+<p> strings are arrays so we can loop through/itrate through each character </p>
+<pre>
+for x in "banana":
+print(x)
+</pre>
+
+<h3> String Length </h3>
+<p> len() function dtermine the length of a string </p>
+<pre>
+a = "hello world"
+print(len(a))
+</pre>
+<p> That is how we can declare the string length</p>
+
+<h3> check String </h3>
+<p> To check a phrase or character in the string we use "in" </p>
+<pre>
+pipi = "thi kase "
+print ("thi" in pipi)
+</pre>
+
+
+
+
+
+
+
+
 
 
 
