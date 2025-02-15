@@ -322,10 +322,11 @@ print(p, q, r)
 - `complex(x)`: Converts `x` to a complex number.
 
 ### Example Usage:
-```python
+<pre>
 num = "10"
 num_int = int(num)  # Converts string to integer
 print(num_int, type(num_int))
+</pre>
 
 <h1> 07.Python String <h1>
 <p1> String in Python are Surrounded by either Single Quotation marks, or double Quotation Marks.</p1>
