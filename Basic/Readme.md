@@ -280,26 +280,3 @@ print(type(memoryview_example))  # Output: <class 'memoryview'>
 none_example = None
 print(type(none_example))  # Output: <class 'NoneType'>
 ```
-
-<h1> 07. Python Numbers </h1>
-<p> There are Three Numeric Types in python:</p>
-<ul>
-<li> Integers </li>
-<li> Floating Point Numbers </li>
-<li> Complex Numbers </li>
-<pre>
-x = 1
-y = 3.03
-z = 1j
-<pre>
-
-<p> Using the Type() function to check the type of a variable:</p>
-<pre>
-print(type(x)) 
-print(type(y))
-print(type(z))
-</pre>
-
-
-
-
