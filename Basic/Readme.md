@@ -280,4 +280,26 @@ print(type(memoryview_example))  # Output: <class 'memoryview'>
 none_example = None
 print(type(none_example))  # Output: <class 'NoneType'>
 ```
+<h1> 06. Numbers Type </h1>
+
+Python has several built-in data types that can be categorized as follows:
+
+### i. Text Type: `str`
+```python
+x=2
+Y =3.03
+Z = 1J
+
+print (type(x)) # To Verify Type of Any Object python Use The Type() predefined Function
+```
+#### ii. we can do "Type Conversion" by Using the Built-in Functions
+```python
+a =3
+b=7.5
+c= 1+2j
+p= int(b)
+q= float(a)
+r = complex(c)
+print (p,q,r)
+```
 
