@@ -210,13 +210,13 @@ print(x, y)
 
 Python has several built-in data types that can be categorized as follows:
 
-## i. Text Type: `str`
+### i. Text Type: `str`
 ```python
 text = "Hello, Python!"
 print(type(text))  # Output: <class 'str'>
 ```
 
-## ii. Numeric Types: `int`, `float`, `complex`
+### ii. Numeric Types: `int`, `float`, `complex`
 ```python
 integer_value = 10
 float_value = 20.5
@@ -227,7 +227,7 @@ print(type(float_value))    # Output: <class 'float'>
 print(type(complex_value))  # Output: <class 'complex'>
 ```
 
-## iii. Sequence Types: `list`, `tuple`, `range`
+### iii. Sequence Types: `list`, `tuple`, `range`
 ```python
 # List
 list_example = ["apple", "banana", "cherry"]
@@ -242,13 +242,13 @@ range_example = range(5)
 print(type(range_example))  # Output: <class 'range'>
 ```
 
-## iv. Mapping Type: `dict`
+### iv. Mapping Type: `dict`
 ```python
 dict_example = {"name": "Alice", "age": 25}
 print(type(dict_example))  # Output: <class 'dict'>
 ```
 
-## v. Set Types: `set`, `frozenset`
+### v. Set Types: `set`, `frozenset`
 ```python
 set_example = {"apple", "banana", "cherry"}
 print(type(set_example))  # Output: <class 'set'>
@@ -257,13 +257,13 @@ frozenset_example = frozenset(["apple", "banana", "cherry"])
 print(type(frozenset_example))  # Output: <class 'frozenset'>
 ```
 
-## vi. Boolean Type: `bool`
+### vi. Boolean Type: `bool`
 ```python
 bool_example = True
 print(type(bool_example))  # Output: <class 'bool'>
 ```
 
-## vii. Binary Types: `bytes`, `bytearray`, `memoryview`
+### vii. Binary Types: `bytes`, `bytearray`, `memoryview`
 ```python
 bytes_example = b"Hello"
 print(type(bytes_example))  # Output: <class 'bytes'>
@@ -275,110 +275,31 @@ memoryview_example = memoryview(bytes(5))
 print(type(memoryview_example))  # Output: <class 'memoryview'>
 ```
 
-## viii. None Type: `NoneType`
+### viii. None Type: `NoneType`
 ```python
 none_example = None
 print(type(none_example))  # Output: <class 'NoneType'>
 ```
+<h1> 06. Numbers Type </h1>
 
-<h1>07.Number and Type Conversion in Python </h1>
+Python has several built-in data types that can be categorized as follows:
 
-This repository demonstrates how to verify the type of a variable in Python and how to perform type conversion using built-in functions.
-
-## Type Verification
-Python provides the `type()` function to check the data type of a variable.
-
+### i. Text Type: `str`
 ```python
-x = 2
-Y = 3.03
+x=2
+Y =3.03
 Z = 1J
 
-print(type(x))  # Output: <class 'int'>
+print (type(x)) # To Verify Type of Any Object python Use The Type() predefined Function
 ```
-
-## Type Conversion
-Python allows conversion between different numeric types using built-in functions.
-
+#### ii. we can do "Type Conversion" by Using the Built-in Functions
 ```python
-a = 3
-b = 7.5
-c = 1+2j
-
-p = int(b)    # Converts float to int
-q = float(a)  # Converts int to float
-r = complex(c) # Converts a complex number to complex (remains unchanged)
-
-print(p, q, r)
+a =3
+b=7.5
+c= 1+2j
+p= int(b)
+q= float(a)
+r = complex(c)
+print (p,q,r)
 ```
-
-### Output:
-<pre>
-7 3.0 (1+2j)
-</pre>
-
-## Built-in Functions for Type Conversion
-- `int(x)`: Converts `x` to an integer.
-- `float(x)`: Converts `x` to a floating-point number.
-- `complex(x)`: Converts `x` to a complex number.
-
-### Example Usage:
-<pre>
-num = "10"
-num_int = int(num)  # Converts string to integer
-print(num_int, type(num_int))
-</pre>
-
-<h1> 08.Python String </h1>
-<p1> String in Python are Surrounded by either Single Quotation marks, or double Quotation Marks.</p1>
-<p1> we can use Single Line String with " " / ' ' or Multiline string like """ """ </p>
-<pre>
-a = """ This is a Text
-with lots of Paragraph and
-things to add """
-print (a)
-</pre>
-
-<h3> String Can be Represents as Array </h3>
-<pre>
-a = "This is Cool "
-print (a[1])
-</pre>
-
-<p> Here we declare the second index of the Following character  </p>
-
-<h3> Looping through a string </h3>
-<p> strings are arrays so we can loop through/itrate through each character </p>
-<pre>
-for x in "banana":
-print(x)
-</pre>
-
-<h3> String Length </h3>
-<p> len() function dtermine the length of a string </p>
-<pre>
-a = "hello world"
-print(len(a))
-</pre>
-<p> That is how we can declare the string length</p>
-
-<h3> check String </h3>
-<p> To check a phrase or character in the string we use "in" </p>
-<pre>
-pipi = "thi kase "
-print ("thi" in pipi)
-</pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
