@@ -40,4 +40,4 @@ for x in "Ishaat":
 #String Length
 #Example
 a = "Ishaat"
-print (len())
+print (len(a))
