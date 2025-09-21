@@ -4,7 +4,7 @@
 """
 
 # Remove the first assignment of x
-x = 40
+x = 40 # global variable
 print(x)
 
 # Here the last updated print will be printed and every variable is global.
