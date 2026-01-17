@@ -1,34 +1,25 @@
-"""We can Represent Global Variable in 2 Ways :
-   1. Declaring the same variable  with Different value or Strong 
-   2. Using local variable outside and Global variable inside
+"""We can represent global variables in two ways:
+   1. Declaring the same variable with different values
+   2. Using a local variable outside and a global variable inside
 """
 
-#1
-x= 20
-x= 40
+# Remove the first assignment of x
+x = 40 # global variable
 print(x)
 
-#Here The last updated Print will be printed and Every Variable is Global variabble Here
+# Here the last updated print will be printed and every variable is global.
 
-# using The Function
-
-x = "Awesome" #global variable
-def myfunc():
-    print("Python is" + x)
+# Using the function
+x = "Awesome"  # global variable
+def print_global_variable():
+    print("Python is " + x)
     
-myfunc()  
+print_global_variable()  
 
-
-# we can use "global" variable inside the function to make it global
-
-def myfunc():
+# We can use "global" variable inside the function to make it global
+def modify_global_variable():
     global x
     x = "fantastic"
-myfunc()   #This Call modifies the global variable x 
 
-print("Python is" + x)
-
-
-
- 
- 
+modify_global_variable()  # This call modifies the global variable x 
+print("Python is " + x)
