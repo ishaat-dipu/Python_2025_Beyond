@@ -1,4 +1,4 @@
-#We often Tell That the Output variale is print
+#We often Tell That the Output variable is print
 print ("Hello World")
 ## Hear print is an out put variable 
 
