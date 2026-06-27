@@ -2,12 +2,13 @@
 print ("Hello World")
 ## Hear print is an out put variable 
 
-# we can use print() function , it can output multiple variales, seperate by comma
+# we can use print() function , it can output multiple variables, separate by comma
 x = "Python"
 y = "is"
-z = "Awesome "
+z = "Awesome"
 
 print(x,y,z)
 
-# we can also concatanate sentence using + operator
+# we can also concatenate sentence using + operator
+
 print(x+y+z)

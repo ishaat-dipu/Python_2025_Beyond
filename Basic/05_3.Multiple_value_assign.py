@@ -2,18 +2,17 @@
 fruits = "Apple", "Mango", "Jackfruit"
 print(fruits)
 
-#On assign - Multiple Variable
+#One assign - Multiple Variable
 x = y = z = "fruits"
 print(x)
 print(y)
 print(z)
 
-# Unpacking The Tupple 
+# Unpacking The Lists 
 fruits = ["banana", "carrot", "jackfruit"]
-x= y= z = fruits 
+x= y= z = fruits
 print(x)
 print(y)
 print(z)
- 
 
 
