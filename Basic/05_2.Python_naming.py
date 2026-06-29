@@ -22,7 +22,7 @@ myVariableName = "Ishaat"
 #Pascal case : Each Word start With a Capital Letter 
 MyvariableName = "john"
 
-#Snake Case : Each Word Will be Seperate by an Under Score  
+#Snake Case : Each Word Will be Separate by an Under Score  
 my_vsriale_name = "Didu"
 
 print (myVariableName)

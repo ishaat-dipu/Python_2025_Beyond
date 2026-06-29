@@ -7,7 +7,7 @@
   <li>Mathematics</li>
   <li>System Scripting </li>
   <li>Data Science and Machine Learning</li>
-  <li>Automatin</li>
+  <li>Automation</li>
 </ul>
 <h1>Why Python?</h1>
 <ul>
